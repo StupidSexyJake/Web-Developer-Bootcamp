@@ -1,6 +1,6 @@
 /* font-family */
 p {
-	font-family: Arial;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -49,7 +49,7 @@ p {
 
 /* text-decoration */
 
-h1 {
+span {
 	text-decoration: line-through;
 }
 
