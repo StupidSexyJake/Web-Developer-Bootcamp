@@ -7,11 +7,9 @@ while (i <= 19) {
 
 console.log("Activity 2");
 var i = 10;
-while (i <= 40) {
-	if (i % 2 === 0) {
-		console.log(i);
-	}
-	i++;
+console.log(i);
+
+i+2;
 }
 
 console.log("Activity 3");
