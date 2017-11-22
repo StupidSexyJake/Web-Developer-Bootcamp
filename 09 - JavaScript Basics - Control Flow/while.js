@@ -8,7 +8,7 @@ while (i <= 19) {
 console.log("Activity 2");
 var i = 10;
 console.log(i);
-i+2;
+i+=2;
 
 
 console.log("Activity 3");
