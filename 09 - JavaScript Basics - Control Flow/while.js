@@ -8,14 +8,13 @@ while (i <= 19) {
 console.log("Activity 2");
 var i = 10;
 console.log(i);
-
 i+2;
-}
+
 
 console.log("Activity 3");
 var i = 300;
 while (i <= 333) {
-	if (!(i % 2 === 0)) {
+	if (i % 2 !== 0) {
 		console.log(i);
 	}
 	i++;
