@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patatap</title>
+    <link rel="stylesheet" type="text/css" href="exercise1.css">
+    <script type="text/paperscript" canvas="myCanvas">
+        for(var i = 0; i <= 10; i++) {
+            for(var x = 0; x <= 10; x++) {
+                var xCoord = i * 100;
+                var yCoord = x * 100;
+                var circle = new Path.Circle(new Point(xCoord, yCoord), 10)
+                circle.fillColor = 'purple';
+            }
+        }
+        //var myCircle = new Path.Circle(new Point(100, 70), 10);
+        //myCircle.fillColor = 'blue';
+    </script>
+</head>
+<body>
+    <canvas id="myCanvas" resize></canvas>
+    <script type="text/javascript" src="paper-full.js"></script>
+</body>
+</html>
